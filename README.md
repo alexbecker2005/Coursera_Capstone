@@ -12,10 +12,10 @@ To prepare the data for my use, I took the list of venues from Foursquare, enric
 As I wanted to find out the correlation between the existence of gyms and other venues within neighbourhoods, I used polynomial regression to train a model for prediction of number of gyms in an area. For this purpose, I divided the dataframe into neighbourhoods with gyms, to train the model, and neighbourhoods without gyms, to apply the trained model and analyse which neighbourhood should have the most gyms as per prediction. The one with the highest prediction is deemed to be the neighbourhood best fit to open a new gym.
 #### Results
 The result of above mentioned methodology showed the following:
-St. James Town, Cabbagetown - 1.943281; Oriole, Henry Farm, Fairview - 1.840421; Kensington Market, Grange Park, Chinatown - 1.754246; Trinity, Little Portugal - 1.637965; Harbourfront - 1.565063.
+Kensington Market, Grange Park, Chinatown - 2.009892; St. James Town, Cabbagetown - 1.974261; Oriole, Henry Farm, Fairview - 1.858331;  Trinity, Little Portugal - 1.753322; Harbourfront - 1.586246.
 The top 5 neighbourhoods in Toronto where no gym exists, show, that, as per model and correlation to other venues, more than 1.5 gyms would be assumed to be present. 
-For the top neighbourhood, St. James Town, Cabbagetown, the result even shows almost 2 gyms (1.943281). 
+For the top neighbourhood, Kensington Market, Grange Park, Chinatown, the result even shows more than 2 gyms (2.009892). 
 #### Discussion
-Even though the model evaluation shows rather a high R-squared score (0.93), the sample size of the neighbourhoods with gyms is small (29 neighbourhoods). Thus, the results should be read with care.
+Even though the model evaluation shows rather a high R-squared score (0.95), the sample size of the neighbourhoods with gyms is small (29 neighbourhoods). Thus, the results should be read with care.
 #### Conclusion
-Based on the results above, one would want to open a gym in the neighbourhood of St. James Town, Cabbagetown in Toronto
+Based on the results above, one would want to open a gym in the neighbourhood of Kensington Market, Grange Park, Chinatown in Toronto
